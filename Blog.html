@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My University Website Design Sample</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+</head>
+<body>
+    
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src='eduford_img//logo.png'>  </a>
+            <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li> <a href="index.html"> HOME </a></li>
+                    <li> <a href="About.html"> ABOUT  </a></li>
+                    <li> <a href="Course.html"> COURSES </a></li>
+                    <li> <a href="Blog.html"> BLOG </a></li>
+                    <li> <a href="content.html"> CONTACT </a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1> Our Certificate & Online Programs for 2023 </h1>
+        </section>
+
+
+
+
+        <!-------Blog Page ------------->
+
+
+        <section class="blog-content">
+
+            <div class="row">
+
+                <div class="blog-left"> 
+                    <img src="eduford_img/certificate.jpg">
+                    <h2>Our Certificate & Online Programs for 2023 </h2>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt rem dolore, explicabo necessitatibus velit maxime officia, ducimus reprehenderit eligendi                          <br>
+                         <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit hic rem quo repudiandae distinctio officia officiis voluptates, consequuntur vero   
+                            consequatur voluptate. Quasi iure minus quo at molestias dignissimos rerum atque.</p>
+                        <br>
+                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam commodi minus unde modi ipsum a consequuntur inventore eius at culpa iure velit  
+                             placeat deleniti explicabo, eaque temporibus fuga soluta laboriosam.</p>  
+                        <br>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur corporis enim dolorum eum? At nihil rerum nulla sit soluta nobis ipsa repellendus deserunt delectus praesentium tenetur, neque voluptates porro animi?</p>
+                
+                            <div class="comment-box">
+                                <h3> Leave a comment</h3>
+                                <form class="comment-form"> 
+                                    <input type="text" placeholder="Enter Name">
+                                    <input type="text" placeholder="Enter Email">
+                                    <textarea rows="5" placeholder="Your comment"></textarea>
+                                    <button type="submit" class="hero-btn red-btn"> Post comment </button>
+                                </form>
+                            </div>
+                
+                
+                
+                
+                    </div>
+
+                <div class="blog-right">  
+                    <h3> Post Categories</h3>
+                    <div>
+                        <span> Business Analytics </span>
+                        <span> 21 </span>
+                    </div>
+                    <div>
+                        <span> Data Science </span>
+                        <span> 9 </span>
+                    </div>
+                    <div>
+                        <span> Machine Learning </span>
+                        <span> 28 </span>
+                    </div>
+                    <div>
+                        <span> Computer Science </span>
+                        <span> 18 </span>
+                    </div>
+                    <div>
+                        <span> AutoCAD </span>
+                        <span> 15 </span>
+                    </div>
+                    <div>
+                        <span> Journalism </span>
+                        <span> 30 </span>
+                    </div>
+                    <div>
+                        <span> Commerce </span>
+                        <span> 14 </span>
+                    </div>
+                    </div>
+            </div>
+             
+        </section>
+
+
+
+
+
+        <!---------Footer--------->
+
+     <section class="footer">
+        <h4> About Us</h4>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat incidunt quas <br> voluptate consectetur nulla aliquid veniam ipsum. Fugiat illum a libero nemo 
+        </br>suscipit quia reiciendis deserunt consectetur tempore. Neque, quo.</p>
+    
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-LinkedIn"></i>
+            </div>
+    <p> Made with <i class="fa fa-heart-o"></i> by Hannah </p>
+    
+    
+    </section>
+
+
+    <!-------Javascript addition for toggle menu---------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = '0';
+    }
+    function hideMenu(){
+        navLinks.style.right = '-200px';
+    }
+
+</script>
